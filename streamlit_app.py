@@ -74,6 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
+
+    labels[0]:{"texts":["시원한 국물이 특징이야"]}, 
+    labels[1]:{"texts":["언제든지 먹어도 맛있어"]},
+    labels[2]:{"texts":["얼튼한 맛이 특징이야"]},
+    labels[3]:{"texts":["쫄깃한 식감이 최고"]},
 }
 
 # ======================
