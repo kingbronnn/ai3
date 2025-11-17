@@ -6,7 +6,7 @@ import streamlit as st
 from PIL import Image, ImageOps
 from fastai.vision.all import *
 import gdown
-
+ 
 # ======================
 # 페이지/스타일
 # ======================
@@ -76,12 +76,17 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     # },
 
     labels[0]:{"texts":["시원한 국물이 특징이야"],
-              "videos":["https://www.youtube.com/watch?v=vzys3xlPEyQ"], 
+              "videos":["https://www.youtube.com/watch?v=ITAZVxJCA4I"], 
               "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4y6prXYLqTDc7T4SE5oBQixrvJZC-rrSpQ&s"]},
-    labels[1]:{"texts":["언제든지 먹어도 맛있어"]},
-    labels[2]:{"texts":["얼튼한 맛이 특징이야"]},
-    labels[3]:{"texts":["쫄깃한 식감이 최고"]},
-}
+    labels[1]:{"texts":["언제든지 먹어도 맛있어"],
+              "images":["https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp"],
+              "videos":["https://www.youtube.com/watch?v=ooHwR7za2ts"]},
+    labels[2]:{"texts":["얼튼한 맛이 특징이야"],
+              "images":["https://i.namu.wiki/i/upNZ7cYsFsAfU0KcguO6OHMK68xC-Bj8EXxdCti61Jhjx10UCBgdK5bZCEx41-aAWcjWZ5JMKFUSaUGLC1tqWg.webp"],
+              "videos":["https://www.youtube.com/watch?v=GP1AQDGYu2Q"]},
+    labels[3]:{"texts":["쫄깃한 식감이 최고"],
+              "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC_-nnoqEAv38_fL8Nkc_JBST-y9X2e5uEw&s"]
+              "videos":["https://www.youtube.com/watch?v=eLvqGjDw-vY"]}
 
 # ======================
 # 유틸
