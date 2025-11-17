@@ -87,7 +87,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     labels[3]:{"texts":["쫄깃한 식감이 최고"],
               "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC_-nnoqEAv38_fL8Nkc_JBST-y9X2e5uEw&s"]
               "videos":["https://www.youtube.com/watch?v=eLvqGjDw-vY"]}
-
+}
 # ======================
 # 유틸
 # ======================
