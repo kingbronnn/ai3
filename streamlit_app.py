@@ -85,8 +85,8 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
               "images":["https://i.namu.wiki/i/upNZ7cYsFsAfU0KcguO6OHMK68xC-Bj8EXxdCti61Jhjx10UCBgdK5bZCEx41-aAWcjWZ5JMKFUSaUGLC1tqWg.webp"],
               "videos":["https://www.youtube.com/watch?v=GP1AQDGYu2Q"]},
     labels[3]:{"texts":["쫄깃한 식감이 최고"],
-              "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC_-nnoqEAv38_fL8Nkc_JBST-y9X2e5uEw&s"]
-              "videos":["https://www.youtube.com/watch?v=eLvqGjDw-vY"]}
+              "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC_-nnoqEAv38_fL8Nkc_JBST-y9X2e5uEw&s"],
+              "videos":["https://www.youtube.com/watch?v=eLvqGjDw-vY"]},
 }
 # ======================
 # 유틸
